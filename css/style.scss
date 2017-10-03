@@ -1,0 +1,10 @@
+$gradiente-default: linear-gradient(#fff, #d4ffdb);
+
+body {background: $gradiente-default;height: 100%;margin: 0;background-repeat: no-repeat;background-attachment: fixed;}
+.custom-field{background: transparent;border: 0;border-bottom: 1px solid #CCC;border-radius: 0; &:focus{background: transparent; outline: 0;}}
+
+.material-icons.md-18 { font-size: 18px; vertical-align: top;}
+.material-icons.md-20 { font-size: 20px; vertical-align: top;}
+.material-icons.md-24 { font-size: 24px; vertical-align: top;}
+.material-icons.md-36 { font-size: 36px; vertical-align: top;}
+.material-icons.md-48 { font-size: 48px; vertical-align: top;}
